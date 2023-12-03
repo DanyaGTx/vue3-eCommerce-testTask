@@ -24,7 +24,7 @@
       <img
         width="100"
         class="m-auto"
-        src="../../assets/loader.gif"
+        src="../../assets/images/loader.gif"
         alt="Loading..."
       />
     </div>
@@ -45,7 +45,7 @@ import {
   sortProductTypes,
   sortTypeMap,
   sortVariants,
-} from "../../constants/sortConstants.js";
+} from "../../constants/sort.js";
 import { toastOptions } from "../../plugins/toast/toastOptions.js";
 import { useStore } from "vuex";
 import { useToast } from "vue-toastification";
@@ -88,7 +88,6 @@ const getProducts = async () => {
     );
 
     store.commit("setProducts", data);
-    return true;
   } catch (error) {
     isErrorOccured.value = true;
     toast.error("Error: " + error, toastOptions);

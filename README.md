@@ -1,7 +1,73 @@
-# Vue 3 + Vite
+# Product List
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![Product List](https://imgur.com/a/QCj1j6s)
 
-## Recommended IDE Setup
+Welcome to Product List!
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Table of Contents
+- [Product List](#product-list)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [Effortless Search](#effortless-search)
+    - [Custom Filters](#custom-filters)
+  - [Getting Started](#getting-started)
+      - [Cloning project](#cloning-project)
+      - [Install dependencies](#install-dependencies)
+    - [To run local dev server:](#to-run-local-dev-server)
+    - [To build:](#to-build)
+    - [To lint:](#to-lint)
+  - [Technologies](#technologies)
+
+## Features
+
+### Effortless Search
+Product List offers a user-friendly interface for quickly searching products.
+
+### Custom Filters
+1. **From Highest/Lowest Price**: You can sort products from highest price to lowest and and vice versa.
+2. **From Highest/Lowest Rating**: Filter products with rating.
+3. **Sorting alphabetically**: You can sort in alphabetical order.
+
+## Getting Started
+Follow these steps to get started with StackExchange Searcher.
+
+#### Cloning project
+1. Clone the repository: `https://github.com/DanyaGTx/vue3-eCommerce-testTask.git`
+2. Navigate to the project directory: `cd vue3-eCommerce-testTask`
+
+#### Install dependencies
+
+```
+npm install
+```
+
+### To run local dev server:
+
+```
+npm run dev
+```
+
+### To build:
+
+```
+npm run build
+```
+
+### To lint:
+
+```
+npm run lint
+```
+
+or to fix all problems
+
+```
+npm run lint:fix
+```
+
+## Technologies
+- Vue 3 + Vite
+- VueX
+- Vuetify
+- Axios
+- Tailwind CSS
