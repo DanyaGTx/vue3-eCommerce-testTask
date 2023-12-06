@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl m-auto p-5">
+  <div class="max-w-[1440px] m-auto p-5">
     <HeaderVue
       :search-product="searchProduct"
       @update-search="updateSearchValue"
