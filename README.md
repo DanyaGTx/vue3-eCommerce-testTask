@@ -1,6 +1,6 @@
 # Product List
 
-![Product List](https://imgur.com/a/QCj1j6s)
+![Product List](https://i.imgur.com/42SMC6b.png)
 
 Welcome to Product List!
 
